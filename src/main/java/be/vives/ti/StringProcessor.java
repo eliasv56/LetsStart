@@ -1,0 +1,15 @@
+package be.vives.ti;
+
+import org.apache.commons.lang3.Strings;
+
+public class StringProcessor {
+
+    public String appendIfMissing(String str, String suffix){
+       /*if(!str.endsWith(suffix)){
+            return str + suffix;
+        }else{
+           return str;*/
+        return Strings.CS.appendIfMissing(str,suffix);
+        }
+
+}
